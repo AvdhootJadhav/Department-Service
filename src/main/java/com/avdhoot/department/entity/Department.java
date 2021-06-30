@@ -9,10 +9,11 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+
 @Entity
 @Data
-@AllArgsConstructor
 @NoArgsConstructor
+@AllArgsConstructor
 public class Department {
 	
 	@Id
@@ -21,4 +22,5 @@ public class Department {
 	private String departmentName;
 	private String departmentAddress;
 	private String departmentCode;
+	
 }
